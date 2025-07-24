@@ -1,0 +1,5 @@
+select * from Employees
+
+select EmployeeID,TitleOfCourtesy,FirstName,LastName from Employees where City = 'London'
+
+select * from Products where ProductID  IN ('1','2','4','8') and where UnitPrice >= 50 and where UnitPrice <= 100
